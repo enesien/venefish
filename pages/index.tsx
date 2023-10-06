@@ -31,7 +31,7 @@ export default function Home() {
             <Link href="/login">
               <Button size="lg">Sign in to get started</Button>
             </Link>
-            <Link target="_blank" href="https://github.com">
+            <Link target="_blank" href="https://github.com/enesien/venefish">
               <Button size="lg" variant="link">
                 View on GitHub &rarr;
               </Button>
