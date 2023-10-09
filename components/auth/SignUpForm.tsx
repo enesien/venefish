@@ -27,14 +27,9 @@ const formSchema = z.object({
 interface SignUpFormProps {
   onShowLogin: () => void;
   onSignUp?: () => void;
-  isComedian?: boolean;
 }
 
-export const SignUpForm: FC<SignUpFormProps> = ({
-  onShowLogin,
-  onSignUp,
-  isComedian = false,
-}) => {
+export const SignUpForm: FC<SignUpFormProps> = ({ onShowLogin, onSignUp }) => {
   const [isLoading, setIsLoading] = useState(false);
 
   const form = useForm<z.infer<typeof formSchema>>({
