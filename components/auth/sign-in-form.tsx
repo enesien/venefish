@@ -1,3 +1,5 @@
+'use client';
+
 import * as React from "react";
 import {
   Form,
@@ -16,7 +18,7 @@ import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { useAuth } from "reactfire";
 import { signInWithEmailAndPassword } from "firebase/auth";
-import { ModalForgotPassword } from "@/components/auth/ModalForgotPassword";
+import { ModalForgotPassword } from "@/components/auth/modal-forgot-password";
 
 const formSchema = z.object({
   email: z.string().email(),
@@ -92,15 +94,15 @@ export const SignInForm: FC<SignInFormProps> = ({ onShowSignUp }) => {
         </form>
       </Form>
       <p className="mt-4 text-sm">
-        Not a member?{" "}
-        <Button variant="link" onClick={onShowSignUp}>
-          Sign up instead.
-        </Button>
-      </p>
-      <p className="text-sm">
         Forgot password?{" "}
         <Button variant="link" onClick={() => setIsResetOpen(true)}>
           Reset
+        </Button>
+      </p>
+      <p className="text-sm">
+        Not a member?{" "}
+        <Button variant="link" onClick={onShowSignUp}>
+          Sign up instead.
         </Button>
       </p>
       <ModalForgotPassword isOpen={isResetOpen} setIsOpen={setIsResetOpen} />

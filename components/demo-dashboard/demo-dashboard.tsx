@@ -1,9 +1,7 @@
 import { FC } from "react";
 import Image from "next/image";
-import { Button } from "@/components/ui/button";
 import { MainNav } from "@/components/demo-dashboard/main-nav";
 import { RecentSales } from "@/components/demo-dashboard/recent-sales";
-import { UserNav } from "@/components/UserNav";
 import {
   Card,
   CardHeader,
@@ -11,7 +9,6 @@ import {
   CardContent,
   CardDescription,
 } from "@/components/ui/card";
-import { Search } from "lucide-react";
 
 export const DemoDashboard: FC = () => {
   return (
