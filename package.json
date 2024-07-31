@@ -37,6 +37,7 @@
     "zod": "^3.22.4"
   },
   "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
     "@types/node": "latest",
     "@types/react": "latest",
     "@types/react-dom": "latest",
