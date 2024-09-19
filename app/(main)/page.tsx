@@ -53,104 +53,40 @@ export default function Home() {
         </section>
         <section className="container mt-8">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 items-center">
-            <div>
-              <Card className=" shadow-teal-200 shadow-md border-teal-400">
-                <CardHeader>
-                  <CardTitle>Need advanced data parsing?</CardTitle>
-                  <CardDescription>
-                    Check out BestParse/AI for all your parsing needs.
-                  </CardDescription>
-                </CardHeader>
-                <CardContent>
-                  <Link
-                    href="https://bestparse.com?utm_source=venefish"
-                    target="_blank"
-                    className="underline text-slate-800 font-medium"
-                  >
-                    BestParse/AI
-                  </Link>{" "}
-                  can parse any text to JSON. It's free to use and and gives you
-                  great results when extracting and parsing scraped data, logs,
-                  or any other raw text.
-                  <p className="mt-4 font-semibold">
-                    20% off the pro plan with code "VENEFISH"
-                  </p>
-                  <Link
-                    className={cn(
-                      buttonVariants({ size: "xl", variant: "teal" }),
-                      "mt-4 w-full"
-                    )}
-                    href="https://bestparse.com?utm_source=venefish"
-                  >
-                    Try BestParse/AI &rarr;
-                  </Link>
-                </CardContent>
-              </Card>
-            </div>
+            <div></div>
             <div>
               <Card className=" shadow-slate-200 shadow-md border-slate-400">
                 <CardHeader>
                   <CardTitle>Looking for a job?</CardTitle>
                   <CardDescription>
-                    Use JobLogr for free to track your job applications.
+                    Use JobLogr's AI tools to help you find your next job.
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
                   <Link
-                    href="https://joblogr.com?utm_source=venefish"
+                    href="https://joblogr.com?utm_source=venefish&utm_medium=landing&utm_campaign=ten"
                     target="_blank"
                     className="underline text-slate-800 font-medium"
                   >
                     JobLogr.com
                   </Link>{" "}
-                  is a free tool to track your job applications. It's simple to
-                  use and helps you keep track of all your job applications. No
-                  downloads required. Completely free and mobile friendly.
+                  is an awesome job search tool that uses AI to help you find
+                  your next job faster than ever before. It's free to try, but
+                  if you decide to upgrade to the pro plan, you can use code
+                  "VENEFISH" for $10 off.
                   <Link
                     className={cn(
                       buttonVariants({ size: "xl" }),
                       "mt-4 w-full"
                     )}
-                    href="https://bestparse.com?utm_source=venefish"
+                    href="https://joblogr.com?utm_source=venefish&utm_medium=landing&utm_campaign=ten"
                   >
                     Use JobLogr for Free
                   </Link>
                 </CardContent>
               </Card>
             </div>
-            <div>
-              <Card className=" shadow-orange-200 shadow-md border-orange-400">
-                <CardHeader>
-                  <CardTitle>Need web development?</CardTitle>
-                  <CardDescription>
-                    Check out Enesien Software for all your web development
-                    needs.
-                  </CardDescription>
-                </CardHeader>
-                <CardContent>
-                  <Link
-                    href="https://enesien.com?utm_source=venefish"
-                    target="_blank"
-                    className="underline text-slate-800 font-medium"
-                  >
-                    Enesien Software
-                  </Link>{" "}
-                  is a web development company that specializes in building
-                  custom web applications. We use modern technologies and
-                  frameworks to build scalable and maintainable web
-                  applications.
-                  <Link
-                    className={cn(
-                      buttonVariants({ variant: "orange", size: "xl" }),
-                      "mt-4 w-full"
-                    )}
-                    href="https://enesien.com?utm_source=venefish"
-                  >
-                    Learn More &rarr;
-                  </Link>
-                </CardContent>
-              </Card>
-            </div>
+            <div></div>
           </div>
         </section>
       </div>
