@@ -100,14 +100,16 @@ export const SignUpForm: FC<SignUpFormProps> = ({ onShowLogin, onSignUp }) => {
                 </FormItem>
               )}
             />
-            <Button type="submit">Sign Up</Button>
+            <Button type="submit" className="w-full sm:w-auto">
+              Sign Up
+            </Button>
           </fieldset>
         </form>
       </Form>
 
-      <p className="mt-4 text-sm">
+      <p className="mt-4 text-sm text-center sm:text-left">
         Already have an account?{" "}
-        <Button variant="link" onClick={onShowLogin}>
+        <Button variant="link" onClick={onShowLogin} className="p-0 h-auto">
           Go to the app
         </Button>
       </p>

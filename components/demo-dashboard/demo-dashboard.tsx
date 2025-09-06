@@ -13,33 +13,17 @@ import {
 export const DemoDashboard: FC = () => {
   return (
     <>
-      <div className="md:hidden">
-        <Image
-          src="/examples/dashboard-light.png"
-          width={1280}
-          height={866}
-          alt="Dashboard"
-          className="block dark:hidden"
-        />
-        <Image
-          src="/examples/dashboard-dark.png"
-          width={1280}
-          height={866}
-          alt="Dashboard"
-          className="hidden dark:block"
-        />
-      </div>
-      <div className="hidden flex-col md:flex">
-        <div className="flex items-end justify-between space-y-2 mb-6">
-          <h2 className="text-3xl leading-5 font-bold tracking-tight">
+      <div className="flex flex-col w-full px-4 sm:px-6 lg:px-8">
+        <div className="flex items-end justify-between space-y-2 mb-4 sm:mb-6">
+          <h2 className="text-xl sm:text-2xl md:text-3xl leading-5 font-bold tracking-tight">
             Dashboard
           </h2>
         </div>
-        <div className="flex h-16 items-center bg-muted px-6 rounded-xl">
+        <div className="flex h-12 sm:h-16 items-center bg-muted px-3 sm:px-6 rounded-xl overflow-x-auto">
           <MainNav />
         </div>
-        <div className="flex-1 space-y-4 pt-6">
-          <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
+        <div className="flex-1 space-y-4 pt-4 sm:pt-6">
+          <div className="grid gap-3 sm:gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
             <Card>
               <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
                 <CardTitle className="text-sm font-medium">
@@ -142,14 +126,14 @@ export const DemoDashboard: FC = () => {
               </CardContent>
             </Card>
           </div>
-          <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-7">
-            <Card className="col-span-4">
+          <div className="grid gap-3 sm:gap-4 grid-cols-1 lg:grid-cols-7">
+            <Card className="lg:col-span-4">
               <CardHeader>
                 <CardTitle>Overview</CardTitle>
               </CardHeader>
               <CardContent className="pl-2">{/* <Overview /> */}</CardContent>
             </Card>
-            <Card className="col-span-3">
+            <Card className="lg:col-span-3">
               <CardHeader>
                 <CardTitle>Recent Sales</CardTitle>
                 <CardDescription>
