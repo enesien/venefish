@@ -16,7 +16,11 @@ export const NavBar: FC = () => {
               className="hover:opacity-80 transition-opacity flex-shrink-0"
             >
               <div className="flex items-center">
-                <FishIcon className="w-6 h-6 sm:w-8 sm:h-8 mr-1 sm:mr-2 inline" />{" "}
+                <img
+                  src="/logo.svg"
+                  alt="Incredible"
+                  className="w-8 h-8 mr-2"
+                />
                 <span className="text-lg sm:text-xl font-semibold tracking-tighter text-slate-800">
                   <span className="hidden sm:inline">
                     Incredible Web to App
