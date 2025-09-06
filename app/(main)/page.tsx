@@ -43,7 +43,10 @@ export default function Home() {
               <Link href="/login">
                 <Button size="lg">Call to Action!</Button>
               </Link>
-              <Link target="_blank" href="https://github.com/enesien/venefish">
+              <Link
+                target="_blank"
+                href="https://github.com/enesien/incredible-web-to-app"
+              >
                 <Button size="lg" variant="link">
                   View Project on GitHub &rarr;
                 </Button>
@@ -63,7 +66,7 @@ export default function Home() {
                 </CardHeader>
                 <CardContent>
                   <Link
-                    href="https://bestparse.com?utm_source=venefish"
+                    href="https://bestparse.com?utm_source=incredible-web-to-app"
                     target="_blank"
                     className="underline text-slate-800 font-medium"
                   >
@@ -73,14 +76,14 @@ export default function Home() {
                   great results when extracting and parsing scraped data, logs,
                   or any other raw text.
                   <p className="mt-4 font-semibold">
-                    20% off the pro plan with code "VENEFISH"
+                    20% off the pro plan with code "INCREDIBLE-WEB-TO-APP"
                   </p>
                   <Link
                     className={cn(
                       buttonVariants({ size: "xl", variant: "teal" }),
                       "mt-4 w-full"
                     )}
-                    href="https://bestparse.com?utm_source=venefish"
+                    href="https://bestparse.com?utm_source=incredible-web-to-app"
                   >
                     Try BestParse/AI &rarr;
                   </Link>
@@ -97,7 +100,7 @@ export default function Home() {
                 </CardHeader>
                 <CardContent>
                   <Link
-                    href="https://joblogr.com?utm_source=venefish&utm_medium=landing&utm_campaign=ten"
+                    href="https://joblogr.com?utm_source=incredible-web-to-app&utm_medium=landing&utm_campaign=ten"
                     target="_blank"
                     className="underline text-slate-800 font-medium"
                   >
@@ -106,13 +109,13 @@ export default function Home() {
                   is an awesome job search tool that uses AI to help you find
                   your next job faster than ever before. It's free to try, but
                   if you decide to upgrade to the pro plan, you can use code
-                  "VENEFISH" for $10 off.
+                  "INCREDIBLE-WEB-TO-APP" for $10 off.
                   <Link
                     className={cn(
                       buttonVariants({ size: "xl" }),
                       "mt-4 w-full"
                     )}
-                    href="https://joblogr.com?utm_source=venefish&utm_medium=landing&utm_campaign=ten"
+                    href="https://joblogr.com?utm_source=incredible-web-to-app&utm_medium=landing&utm_campaign=ten"
                   >
                     Use JobLogr for Free
                   </Link>
@@ -130,7 +133,7 @@ export default function Home() {
                 </CardHeader>
                 <CardContent>
                   <Link
-                    href="https://enesien.com?utm_source=venefish"
+                    href="https://enesien.com?utm_source=incredible-web-to-app"
                     target="_blank"
                     className="underline text-slate-800 font-medium"
                   >
@@ -145,7 +148,7 @@ export default function Home() {
                       buttonVariants({ variant: "orange", size: "xl" }),
                       "mt-4 w-full"
                     )}
-                    href="https://enesien.com?utm_source=venefish"
+                    href="https://enesien.com?utm_source=incredible-web-to-app"
                   >
                     Learn More &rarr;
                   </Link>

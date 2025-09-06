@@ -15,22 +15,12 @@ export const NavBar: FC = () => {
               <div className="flex items-center">
                 <FishIcon className="w-8 h-8 mr-2 inline" />{" "}
                 <span className="text-xl font-semibold tracking-tighter text-slate-800 mr-6">
-                  Venefish
+                  Incredible Web to App
                 </span>
               </div>
             </Link>
             <div className="hidden md:flex justify-between grow">
-              <div>
-                <Link href="#1" className={buttonVariants({ variant: "link" })}>
-                  Item 1
-                </Link>
-                <Link href="#2" className={buttonVariants({ variant: "link" })}>
-                  Item 2
-                </Link>
-                <Link href="#3" className={buttonVariants({ variant: "link" })}>
-                  Item 3
-                </Link>
-              </div>
+              <div></div>
               <div className="flex items-center space-x-4">
                 <NavbarUserLinks />
               </div>

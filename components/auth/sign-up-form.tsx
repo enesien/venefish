@@ -1,4 +1,4 @@
-'use client';
+"use client";
 
 import * as React from "react";
 import {
@@ -106,9 +106,9 @@ export const SignUpForm: FC<SignUpFormProps> = ({ onShowLogin, onSignUp }) => {
       </Form>
 
       <p className="mt-4 text-sm">
-        Already joined?{" "}
+        Already have an account?{" "}
         <Button variant="link" onClick={onShowLogin}>
-          Sign in instead.
+          Go to the app
         </Button>
       </p>
     </>

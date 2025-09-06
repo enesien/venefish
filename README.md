@@ -1,4 +1,4 @@
-# Venefish 🐟
+# Incredible Web to App 🚀
 
 ### Boilerplate for React TypeScript projects using Next.js, shadcn/ui, Tailwind and Firebase on Vercel!
 
