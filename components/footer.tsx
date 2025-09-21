@@ -9,11 +9,11 @@ export const Footer = () => {
           <p className="text-center text-sm leading-loose md:text-left">
             An{" "}
             <a
-              href="https://enesien.com"
+              href="https://github.com/enesien"
               target="_blank"
               className="font-medium underline underline-offset-4"
             >
-              enesien software
+              enesien
             </a>{" "}
             project.
           </p>
